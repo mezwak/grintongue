@@ -1,0 +1,59 @@
+body {
+	background-color: #000000;
+}
+
+textarea {
+	background-color: #404040;
+	color: #C1C1C1;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+}
+
+button {
+	display: block;
+}
+
+input {
+	display: block;
+}
+
+.main {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.banner {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	height: 50px;
+	font-size: 20pt;
+}
+
+.text {
+	color: #C1C1C1;
+}
+
+.box {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.box-text {
+	margin: 20px 0px;
+}
+
+.box-footer {
+	bottom: 0;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Grintongue Translator</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta name="description" content="Blacktooth Grin Translator">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<script src="data.json"></script>
+	<script language="javascript" type="text/javascript">
+		window.onload = function() {
+			document.getElementById("button").onclick = function(event) {
+				translate(document.getElementById("input").value);
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="banner">
+		<image src="grin.jpg" alt="Fear the grin">
+	</div>
+	<div class="main">
+		<textarea id="input" class="text-box" rows="15" cols="80"></textarea>
+		<button id="button" class="button" onclick="translate">Translate</button>
+		<textarea id="output" class="text-box" rows="15" cols="80"></textarea>
+	</div>
+	<div class="box box-footer">
+	  <p class="text" style="font-weight:bold"><span style="color:#C69B6D">Blackfist</span> <br /><span style="color:#3CE13F">&lt;Blacktooth Grin&gt;</span> <br />© 2022</p>
+	</div>
+</body>
+</html>
